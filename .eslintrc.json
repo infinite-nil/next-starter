@@ -1,3 +1,8 @@
 {
-  "extends": ["airbnb", "airbnb-typescript", "prettier", "next/core-web-vitals"]
+  "extends": ["next/core-web-vitals", "airbnb", "airbnb-typescript", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  }
 }
