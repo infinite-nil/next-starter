@@ -29,7 +29,7 @@
     "typescript": "^4.6.3"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "yarn lint --fix",
+    "*.{ts,tsx}": "yarn eslint --fix",
     "*.{ts,tsx,css,md}": "prettier --write"
   }
 }
